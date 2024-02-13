@@ -40,7 +40,7 @@ export default function Page() {
           <img src="https://gifdb.com/images/high/animated-bear-kiss-enngnq0gm2r405bt.webp" />
           <div className="text-[2rem] font-bold text-center leading-tight md:text-5xl md:leading-snug bg-gradient-to-r from-green-600 via-yellow-600 to-red-600 inline-block text-transparent bg-clip-text">
             {/* Thanks! Ok yay */}
-            Juuuj! Köszönöm! Nagyon szeretlek Életem! 
+            Juuuj!❤️ Köszönöm! Nagyon szeretlek Életem!❤️
           </div>
         </>
       ) : (
@@ -48,7 +48,7 @@ export default function Page() {
           <img className="h-[200px]" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" />
           <h1 className="text-[2rem] text-center leading-tight md:text-5xl md:leading-snug bg-gradient-to-r from-green-600 via-yellow-600 to-red-600 inline-block text-transparent bg-clip-text">
             {/* Will you be my Valentine? */}
-            Leszel a valentinom Béb?
+            Leszel a Valentinom Béb?
           </h1>
           <div className="text-center space-y-5">
             <button
@@ -57,7 +57,7 @@ export default function Page() {
               onClick={() => setYesPressed(true)}
             >
               {/* Yes */}
-              Đúng
+              Igen
             </button>
             <button
               onClick={handleNoClick}
